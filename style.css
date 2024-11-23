@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%) ;
   
 }
-main{
+.main{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@ section{
 }
 .current{
     width: 19rem;
-    height: 10rem;
+    height: 8rem;
     background-color: rgb(180, 77, 111);
     border-radius: 5px;
     font-size: 1.5rem;
@@ -56,4 +56,29 @@ section{
 }
 .currentscore{
     font-size: 3rem;
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3rem;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+    font-weight:600;
+}
+.btn--new{
+    top: 17%;
+    width: 12rem;
+
+}
+.btn--roll{
+    top: 65%;
+    width: 12rem;
+
+}
+.btn--hold{
+    top: 72%;
+    width: 9rem;
+
 }
