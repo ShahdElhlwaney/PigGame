@@ -39,7 +39,7 @@ section{
 .head-name{
     font-size: 3rem;
 }
-.score{
+.score-player1,.score-player2{
     font-size: 7rem;
     margin-bottom: 15rem;
     color:  rgb(180, 77, 111);
@@ -54,7 +54,7 @@ section{
     text-align: center;
     color: rgb(232, 224, 224);
 }
-.currentscore{
+.currentscore-player1,.currentscore-player2{
     font-size: 3rem;
 }
 .btn{
