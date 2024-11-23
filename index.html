@@ -9,9 +9,19 @@
 <body>
     <main>
         <div class="main">
-            <section class="player1">
+            <section class="player0">
                 <div class="playercontent">
                     <p class="head-name">PLAYER 1</p>
+                    <span class="score-player0">0</span>
+                    <div class="current">
+                        <p><b>CURRENT</b></p>
+                        <span class="currentscore-player0">0</span>
+                    </div>
+                </div>
+            </section>
+            <section class="player1">
+                <div class="playercontent">
+                    <p class="head-name">PLAYER 2</p>
                     <span class="score-player1">0</span>
                     <div class="current">
                         <p><b>CURRENT</b></p>
@@ -19,22 +29,13 @@
                     </div>
                 </div>
             </section>
-            <section class="player2">
-                <div class="playercontent">
-                    <p class="head-name">PLAYER 2</p>
-                    <span class="score-player2">0</span>
-                    <div class="current">
-                        <p><b>CURRENT</b></p>
-                        <span class="currentscore-player2">0</span>
-                    </div>
-                </div>
-            </section>
         </div>
         
-        <img src="dice-5.png" alt="Playing dice" class="dice" />
+        <img  alt="Playing dice" class="dice hidden"  />
         <button class="btn btn--new">🔄 New game</button>
         <button class="btn btn--roll">🎲 Roll dice</button>
         <button class="btn btn--hold">📥 Hold</button>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
