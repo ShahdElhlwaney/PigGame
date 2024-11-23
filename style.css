@@ -17,18 +17,19 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 section{
     width: 40rem;
     height: 50rem;
-}
+    background-color: rgb(207, 119, 148);
 
-.player0{
+}
+.playerActive{
     background-color: rgb(221, 191, 201);
 }
-.player1{
-    background-color: rgb(207, 119, 148);
-}
+
+
 .playercontent{
     display: flex;
     flex-direction: column;
