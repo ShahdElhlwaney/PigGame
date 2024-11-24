@@ -17,18 +17,19 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 section{
     width: 40rem;
     height: 50rem;
-}
+    background-color: rgb(207, 119, 148);
 
-.player1{
+}
+.playerActive{
     background-color: rgb(221, 191, 201);
 }
-.player2{
-    background-color: rgb(207, 119, 148);
-}
+
+
 .playercontent{
     display: flex;
     flex-direction: column;
@@ -36,10 +37,10 @@ section{
     justify-content: center;
     height:100%;
 }
-.head-name{
+.name{
     font-size: 3rem;
 }
-.score-player1,.score-player2{
+.score-player0,.score-player1{
     font-size: 7rem;
     margin-bottom: 15rem;
     color:  rgb(180, 77, 111);
@@ -54,7 +55,7 @@ section{
     text-align: center;
     color: rgb(232, 224, 224);
 }
-.currentscore-player1,.currentscore-player2{
+.currentscore-player0,.currentscore-player1{
     font-size: 3rem;
 }
 .btn{
@@ -66,6 +67,7 @@ section{
     border: none;
     text-transform: uppercase;
     font-weight:600;
+    cursor: pointer;
 }
 .btn--new{
     top: 17%;
@@ -82,3 +84,25 @@ section{
     width: 9rem;
 
 }
+.dice{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    width: 10rem;
+}
+.hidden{
+    display: none;
+}
+.player--winner {
+    background-color: #2f2f2f;
+  }
+  
+  .player--winner .name {
+    font-weight: 700;
+    color: #c7365f;
+  }
+  .btn:active {
+    transform: translate(-50%, 3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  }
