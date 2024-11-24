@@ -37,7 +37,7 @@ section{
     justify-content: center;
     height:100%;
 }
-.head-name{
+.name{
     font-size: 3rem;
 }
 .score-player0,.score-player1{
@@ -67,6 +67,7 @@ section{
     border: none;
     text-transform: uppercase;
     font-weight:600;
+    cursor: pointer;
 }
 .btn--new{
     top: 17%;
@@ -93,3 +94,15 @@ section{
 .hidden{
     display: none;
 }
+.player--winner {
+    background-color: #2f2f2f;
+  }
+  
+  .player--winner .name {
+    font-weight: 700;
+    color: #c7365f;
+  }
+  .btn:active {
+    transform: translate(-50%, 3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  }
